@@ -7,7 +7,7 @@ It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
 ## Credits
 
-...
+- orignal sound-pitch equation from Purin2022
 
 ## Installation
 
