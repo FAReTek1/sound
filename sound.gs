@@ -1,4 +1,6 @@
 # Pitch effect utils
+%if not _FARETEK_INCLUDE_SOUND
+%define _FARETEK_INCLUDE_SOUND
 
 func speed_to_pitch(speed) {
     # This could be changed to a macro
@@ -21,3 +23,4 @@ nowarp proc get_sound_length sound, inaccuracy=3 {
     play_sound_until_done $sound;
     sound_length = (timer() - start) * $speed;
 }
+%endif

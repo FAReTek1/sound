@@ -4,4 +4,6 @@ costumes "blank.svg";
 %include inflator/sound
 
 onflag {
+    set_pitch_effect_to_speed 2;
+
 }
